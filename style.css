@@ -1,0 +1,56 @@
+* {
+    direction: rtl;
+}
+
+body {
+    background: linear-gradient(to left, #ccf7cc, #eafbea, #ccf7cc);
+    font-size: 1.4rem;
+    font-family: 'Cairo', sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 10vh auto;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 450px;
+    margin: 2vh;
+}
+
+q {
+    display: block;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+q + span {
+    font-size: 0.9rem;
+    display: block;
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 1vh;
+}
+
+dl {
+    width: 100%;
+    max-width: 650px;
+}
+
+dt {
+    font-weight: 200;
+    font-size: 1.8rem;
+}
+
+dd {
+    text-align: justify;
+    margin-bottom: 3vh;
+}
+
+ul {
+    margin: 0;
+}
