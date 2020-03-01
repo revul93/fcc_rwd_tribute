@@ -18,8 +18,17 @@ main {
 }
 
 img {
-    width: 450px;
-    margin: 2vh;
+    display: block;
+    width: 70%;
+    max-width: 530px;
+    margin: 2vh auto;
+}
+
+#img-caption {
+    text-align: center;
+    margin-top: -15px;
+    font-size: 0.7rem;
+    font-style: italic;
 }
 
 q {
@@ -53,4 +62,16 @@ dd {
 
 ul {
     margin: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 10vh auto 0 auto;
+    align-items: center;
+}
+
+footer dd {
+    margin-bottom: 5px;
 }
